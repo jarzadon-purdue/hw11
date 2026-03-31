@@ -7,6 +7,7 @@
 #include "list.h"
 #include "maze.h"
 
+
 PathLL* solveMaze(Maze* m);
 
 void depthFirstSolve(Maze* m, MazePos curpos, char* path, int step,
